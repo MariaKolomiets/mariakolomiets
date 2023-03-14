@@ -35,3 +35,5 @@ class Character:
             f'група: {self.group}\n' \
             f'средний бал: {self.mark}\n' \
             f'возраст: {self.age}\n'
+
+    #fgbgbf
