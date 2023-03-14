@@ -6,19 +6,21 @@ class Character:
     health = 100
     demage = 1
     defence = 0
-    is_alive = True
     color = Fore.LIGHTWHITE_EX
 
-    def fight(self, health, is_alive):
-        if health > 0:
-            is_alive == True
-        elif health < 0:
-            is_alive == False
+    def is_alive(self):
+        if f'{self.health}' == 0:
+            return \
+                False
+
+
 
 
     #Конструктор
-    def __init__(self, name = '', health = 100, demage = 1, defence = 0,
-                 is_alive = True, color = Fore.LIGHTWHITE_EX):
+    def __init__(self, name = '', health = 100,
+                 demage = 1, defence = 0,
+                 is_alive = True,
+                 color = Fore.LIGHTWHITE_EX):
         self.name = name
         self. health = health
         self.demage = demage
