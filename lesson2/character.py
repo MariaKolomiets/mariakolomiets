@@ -9,12 +9,7 @@ class Character:
     color = Fore.LIGHTWHITE_EX
 
     def is_alive(self):
-        if f'{self.health}' == 0:
-            return \
-                False
-
-
-
+        return self.health > 0
 
     #Конструктор
     def __init__(self, name = '', health = 100,
@@ -26,7 +21,7 @@ class Character:
         self.demage = demage
         self.defence = defence
         self.color = color
-        self.is_alive = is_alive
+
 
     def __str__(self):
         return self.get_ststs()
