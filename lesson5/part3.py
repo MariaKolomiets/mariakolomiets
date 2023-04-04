@@ -4,6 +4,6 @@ user = input("Прізвище: ")
 
 for i in range(len(mss)):
     if user == mss[i]:
-        print(" --- Прізвище є в списку ---")
+        print("--- Прізвище є в списку ---")
     else:
         print("Прізвища немає в списку")
