@@ -11,7 +11,7 @@ print(human1)
 human1.change_state(health=random.randint(50, 100), mood=random.randint(10, 20), money=random.randint(-30, -20))
 print(human1)
 
-###########################
+###########################№
 
 human2 = Person(name='Person2', health=100, mood=100, money=0,)
 
